@@ -1,2 +1,2 @@
 # tryfly
-[![Deploy](https://www.herokucdn.com/deploy/button.png)]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)

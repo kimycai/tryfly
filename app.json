@@ -1,0 +1,7 @@
+{
+    "name": "xray-heroku",
+    "description": "deploy xray to heroku",
+    "keywords": ["xray"],
+   
+    "stack": "container"
+}

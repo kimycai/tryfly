@@ -1,4 +1,4 @@
-FROM kimycai/v2flylite
+FROM v2fly/v2fly-core
 # 从dockerhub中提取镜像teddysun/xray
 
 ENV TZ=Asia/Shanghai
@@ -8,7 +8,7 @@ ENV TZ=Asia/Shanghai
 ADD entrypoint.sh /
 
 #将镜像内的entrypoint.sh文件状态改为可执行
-RUN chmod +x /entrypoint.sh
+#RUN chmod +x /entrypoint.sh
 
 # 执行镜像内的entrypoint.sh脚本
-CMD /entrypoint.sh
+#CMD /entrypoint.sh
